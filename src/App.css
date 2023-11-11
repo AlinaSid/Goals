@@ -1,0 +1,60 @@
+.App{
+    background: linear-gradient(#FFF0F5,white);
+    min-height: 80vh;
+    width: 400px;
+    margin: 20px auto;
+}
+
+body{
+    background: #FFF0F5;
+}
+
+.crossed{
+    text-decoration: line-through 2px #FBA1B7;
+    
+}
+
+ul,li{
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Caveat', sans-serif;
+    
+}
+
+h1{
+    font-family: 'Caveat', sans-serif;;
+    color: #D80032;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    display: flex; 
+    justify-content: end;
+    
+}
+
+.add{
+    margin-top: 5px;
+    background-color: #FFF0F5;
+    color: #61677A;
+    padding: 10px;
+    border: 3px solid white;
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Caveat', sans-serif;
+}
+
+.del{
+    background-color: #FFF0F5;
+    margin-bottom: 5px;
+    color: #61677A;
+    padding: 10px;
+    border: 3px solid white;
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Caveat', sans-serif;
+}
